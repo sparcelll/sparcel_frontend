@@ -1,146 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sparcel - Deploy Your GitHub Repo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
   <!-- Custom CSS -->
-  <style>
-    body {
-      padding-top: 56px; /* Adjust based on your navbar height */
-      background-color: #1e1e1e;
-      color: #fff;
-    }
-
-    .navbar {
-      background-color: #343a40;
-    }
-
-    .navbar-brand img {
-      max-height: 40px; /* Adjust the max-height as needed */
-    }
-
-    .jumbotron {
-      background-color: #343a40;
-      color: #fff;
-      padding: 150px 0;
-    }
-
-    .jumbotron img {
-      max-width: 200px; /* Adjust the max-width as needed */
-    }
-
-    .about-section,
-    .feature-section,
-    .contact-section {
-      background-color: #1e1e1e;
-      color: #fff;
-      padding: 80px 0;
-    }
-
-    .footer {
-      background-color: #343a40;
-      color: #fff;
-      padding: 20px 0;
-    }
-
-    /* Custom styles for buttons */
-    .btn-primary {
-      background-color: #007bff;
-      border-color: #007bff;
-    }
-
-    .btn-primary:hover {
-      background-color: #0056b3;
-      border-color: #0056b3;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#features">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
 
-<!-- Hero Section -->
-<header class="jumbotron jumbotron-fluid text-center">
-  <div class="container">
-    <img src="image/logo.png" alt="Sparcel Logo" class="mb-4">
-    <h1 class="display-4">Deploy Your GitHub Repo with Sparcel</h1>
-    <p class="lead">Effortlessly deploy your projects to the cloud using Sparcel.</p>
-    <a class="btn btn-primary btn-lg" href="#contact" role="button">Get Started</a>
-  </div>
-</header>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#mission">Our Mission</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<!-- About Us Section -->
-<section id="about" class="container about-section">
-  <div class="row">
-    <div class="col-lg-6">
-      <h2>About Sparcel</h2>
-      <p>Sparcel is a platform that simplifies the deployment process of your GitHub repositories. Whether you're a developer, a team, or a business, Sparcel makes it easy to showcase and share your projects online.</p>
+  <!-- Hero Section -->
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <img src="image/logo.png" alt="Sparcel Logo" class="mb-4">
+      <h1 class="display-4">Deploy Your GitHub Repo with Sparcel</h1>
+      <p class="lead">Effortlessly deploy your projects to the cloud using Sparcel.</p>
+      <a class="btn btn-primary btn-lg np" href="/signupPage.html" role="button">Get Started</a>
     </div>
-    <div class="col-lg-6">
-      <img src="your-about-image.jpg" alt="About Us Image" class="img-fluid rounded">
+  </header>
+
+
+
+  <!-- About Us Section -->
+  <section id="about" class="container about-section">
+    <div class="row-ab">
+      <div class="row-ab">
+        <h2 class="mb-4 hsome">About <span> Sparcel</span></h2>
+        <p>At Sparcel, we are passionate about simplifying the process of deploying and managing static websites. Our
+          platform empowers developers, designers, and businesses to effortlessly bring their web projects to life
+          without the complexities of traditional server setups.</p>
+      </div>
     </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="container mission-section">
+    <h2 class="mb-4 hsome">Our <span> Mission</span></h2>
+    <p>Our mission is to provide a seamless and efficient solution for deploying static websites, enabling our users to
+      focus on what they do best - creating exceptional web experiences. We believe that technology should be accessible
+      and intuitive, empowering individuals and organizations to succeed in the digital landscape.</p>
+  </section>
+  <!-- Features Section -->
+  <section id="features" class="container feature-section text-center">
+    <h2 class="mb-4 hsome">Key <span> Features</span></h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Effortless Deployment</h3>
+        <p>Say goodbye to server configurations and tedious setup processes. With Sparcel, deploying static websites is
+          as easy as a few clicks, thanks to our intuitive interface and seamless integration with version control
+          systems like Git.</p>
+      </div>
+      <div class="col-lg-4">
+        <h3>Custom Domain Support</h3>
+        <p>Make your website truly yours by mapping custom domain names effortlessly. Whether you're a freelancer, a
+          small business, or a large enterprise, showcase your brand with a personalized domain name.</p>
+      </div>
+      <div class="col-lg-4">
+        <h3>Performance Optimization</h3>
+        <p>We understand the importance of speed and security in today's digital world. That's why we integrate with
+          Content Delivery Networks (CDNs) for lightning-fast loading times, provide SSL/TLS encryption for secure
+          communication, and automate build processes for optimized performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container contact-section text-center">
+    <h2 class="mb-4">Contact <span>Us</span></h2>
+    <ul class="creators-list">
+      <li><a href="https://www.linkedin.com/in/ashutosh-tripathi12/" target="_blank">Ashutosh Tripathi</a></li>
+      <li><a href="lhttps://www.linkedin.com/in/ram-krishna-dwivedi-011762231/" target="_blank">Ram Krishna Dwivedi</a></li>
+      <li><a href="https://www.linkedin.com/in/tanmay-gupta-4196a6280/" target="_blank">Tanmay Gupta </a></li>
+      <li><a href="https://www.linkedin.com/in/priyanshi-garg-276171216/" target="_blank">Priyanshi Garg </a></li>
+    </ul>
+
+  <!-- Contact Icons -->
+  <div class="contact-icons">
+    <i class="fas fa-envelope fw"></i>
+    <i class="fas fa-phone fw"></i>
+    <i class="fas fa-map-marker-alt fw"></i>
+  </div>
+
+  <!-- Contact Information -->
+  <div class="contact-info">
+    <p>Email: info@sparcel.com</p>
+    <p>Phone: +91 999999999</p>
+    <p>Address: Morar , Gwalior</p>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact-form">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group ">
+            
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg space">Send Message</button>
+    </form>
   </div>
 </section>
 
-<!-- Features Section -->
-<section id="features" class="container feature-section text-center">
-  <h2 class="mb-4">Key Features</h2>
-  <div class="row">
-    <div class="col-lg-4">
-      <h3>Feature 1</h3>
-      <p>Description of Feature 1.</p>
-    </div>
-    <div class="col-lg-4">
-      <h3>Feature 2</h3>
-      <p>Description of Feature 2.</p>
-    </div>
-    <div class="col-lg-4">
-      <h3>Feature 3</h3>
-      <p>Description of Feature 3.</p>
-    </div>
+  <div class="last-text">
+    <p>Sparcel © 2024</p>
   </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="container contact-section text-center">
-  <h2 class="mb-4">Contact Us</h2>
-  <p>Have questions? Reach out to us at <a href="mailto:info@sparcel.com">info@sparcel.com</a></p>
-</section>
-
-<!-- Footer -->
-<footer class="footer mt-auto py-3 text-center">
-  <div class="container">
-    <span>&copy; 2024 Sparcel</span>
-  </div>
-</footer>
-
-<!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
 </body>
-</html>
 
+</html>
